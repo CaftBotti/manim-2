@@ -128,7 +128,7 @@ class Animation(object):
         pass
 
     def get_sub_alpha(self, alpha, index, num_submobjects):
-        # TODO, make this more understanable, and/or combine
+        # TODO, make this more understandable, and/or combine
         # its functionality with AnimationGroup's method
         # build_animations_with_timings
         lag_ratio = self.lag_ratio
